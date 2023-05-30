@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-white p-4">
+    <nav class="navbar navbar-expand-lg bg-dark p-4">
       <div class="container">
         <a href="#"
           ><img
@@ -35,13 +35,13 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto fw-bolder">
             <li class="nav-item">
-              <a href="#howItWorks" class="nav-link text-black">How it works</a>
+              <a href="#howItWorks" class="nav-link text-white">How it works</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-black">About</a>
+              <a href="#" class="nav-link text-white">About</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-black">Sign in / Login</a>
+              <a href="#" class="nav-link text-white">Sign in / Login</a>
             </li>
           </ul>
         </div>
@@ -49,25 +49,146 @@
     </nav>
 
     <!-- Showcase -->
-    <section class="p-5 bg-white">
+    <section class="bg-white">
+      <div>
+        <img
+          src="images/test.jpeg"
+          alt="A banner image"
+          class="img-fluid showcase-image"
+        />
+      </div>
+    </section>
+
+    <!-- Section -->
+    <section class="p-5 bg-warning" id="howItWorks">
       <div class="container">
-        <div class="d-flex">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            architecto nostrum quaerat facere? Tenetur explicabo nobis non nisi
-            id quia accusamus totam ut. Natus aperiam velit nobis sapiente
-            quibusdam? Molestias laboriosam nesciunt sunt praesentium facilis,
-            unde necessitatibus dolorum. A asperiores ex quod sapiente?
-            Perferendis accusantium minima corporis repellendus ex! Consectetur?
-          </p>
-          <img
-            src="https://static.vecteezy.com/system/resources/thumbnails/001/824/309/small_2x/illustration-chat-apps-people-chatting-with-mobile-application-chat-apps-for-communication-sending-and-receiving-messages-designed-for-landing-page-web-banner-template-flyer-poster-ui-free-vector.jpg"
-            alt="A banner image"
-            class="img-fluid"
-          />
+        <h2 class="text-center fw-bolder mb-5">
+          How It Works
+        </h2>
+        <div class="row gap-4">
+          <div class="col-md text-center mt-4">
+            <h3 class="text-center fw-bold">Step 1</h3>
+            <div class="card my-3">
+              <div class="card-body text-center">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Suscipit, culpa voluptas ab dicta exercitationem sunt modi
+                  optio facere ratione, repellat, placeat cum provident
+                  repellendus officiis.
+                </p>
+                <a href="#" class="">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md text-center mt-4">
+            <h3 class="text-center">Step 2</h3>
+            <div class="card my-3">
+              <div class="card-body text-center">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Suscipit, culpa voluptas ab dicta exercitationem sunt modi
+                  optio facere ratione, repellat, placeat cum provident
+                  repellendus officiis.
+                </p>
+                <a href="#" class="">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md text-center mt-4">
+            <h3 class="text-center fw-bold">Step 3</h3>
+            <div class="card my-3">
+              <div class="card-body text-center">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Suscipit, culpa voluptas ab dicta exercitationem sunt modi
+                  optio facere ratione, repellat, placeat cum provident
+                  repellendus officiis.
+                </p>
+                <a href="#" class="">Read More</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
+    <section class="p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1"
+                    >First Name</span
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your first name"
+                    aria-label="Enter your first name"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1"
+                    >Last Name</span
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your last name"
+                    aria-label="Enter your last name"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">Email</span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="username@gmail.com"
+                    aria-label="username@gmail.com"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1"
+                    >Contact</span
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="phone number"
+                    aria-label="phone number"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-title text-center">
+                <div class="card-body">
+                  <h3>Contact us</h3>
+                  <p>Email: fasthost@gmail.com</p>
+                  <p>Contact: (+233) 546456376</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="p-5 bg-dark text-white fw-bold">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+      <p>Created By Robert Antwi </p>
+      <p>Copyright &copy; My Website 2023</p>
+      </div>
+    </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
