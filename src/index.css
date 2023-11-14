@@ -1,0 +1,23 @@
+html {
+  background: papayawhip;
+  font-size: large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  color: black;
+}
+
+h1, h2 {
+  color: #a52a2a;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+.gray {
+  color: gray;
+}
+
+.highlight{
+  color: gold;
+}
